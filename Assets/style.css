@@ -1,0 +1,68 @@
+nav {
+
+
+
+}
+
+header {
+ 
+
+}
+
+section {
+
+}
+
+
+.containerGrid {
+    display: grid;
+    padding: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50% 50%;
+    margin: 10px;
+    grid-template-areas: 
+    "Flexbox-Row Flexbox-Column CSS-Grid-Layout"
+    "Linear-Gradients Box-Transition-Glow Overlay-Card-with-Title"
+}
+.containerGrid > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid black;
+    text-align: center;
+    font-size: 30px;
+}
+
+.Flexbox-Row,
+.Flexbox-Column,
+.CSS-Grid-Layout,
+.Linear-Gradients,
+.Box-Transition-Glow,
+.Overlay-Card-with-Title
+{
+  padding: 10px;
+  height: 300px;
+}
+
+.Flexbox-Row {
+    grid-area: Flexbox-Row; 
+}   
+.Flexbox-Column {
+    grid-area: Flexbox-column;
+}
+
+.CSS-Grid-Layout {
+    grid-area: CSS-Grid-Layout;
+}
+
+.Linear-Gradients {
+    grid-area: Linear-Gradients;       
+}
+.Box-Transition-Glow {
+    grid-area: Box-Transition-Glow;        
+}
+.Overlay-Card-with-Title {
+    grid-area: Overlay-Card-with-Title;        
+}
+
+footer {
+    text-align: center;
+}
