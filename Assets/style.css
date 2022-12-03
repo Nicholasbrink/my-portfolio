@@ -1,34 +1,65 @@
-nav {
+.nav {
+display: flex;
+padding: 5px;
+background-color: aqua;
+border-bottom: 2px;
+border-bottom-color: mediumblue;
+}
+.Logo{
+    height: 200px;
+    background-image: url("../Assets/images/02-hero-bg.jpg");
+}
+.left{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border: 10px; 
+    /* HOW DO I SHIFT THE NAME A BIT TO THE RIGHT?  */
 
-
+}
+.right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 85%
 
 }
 
-header {
- 
+.right a{
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 10px;
+    color: black;
 
 }
-
-section {
-
+p{
+    font-size: 15px;
 }
-
-
 .containerGrid {
     display: grid;
     padding: 10px;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 50% 50%;
+    grid-template-rows: 1fr 1fr 1fr;
     margin: 10px;
     grid-template-areas: 
+    "main main main"
     "Flexbox-Row Flexbox-Column CSS-Grid-Layout"
     "Linear-Gradients Box-Transition-Glow Overlay-Card-with-Title"
 }
 .containerGrid > div {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(49, 128, 173, 0.8);
     border: 1px solid black;
+    margin: 10px;
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
+    width: 100%;
+   
+}
+
+.main{
+    padding: 10px;
+    height: 300px;
+    
 }
 
 .Flexbox-Row,
@@ -40,29 +71,53 @@ section {
 {
   padding: 10px;
   height: 300px;
+  width: 100%;
+ 
 }
+
+.main {
+    grid-area: main; 
+    background-image: url("../Assets/images/02-portfolio-1.jpg");
+    
+
+    
+} 
 
 .Flexbox-Row {
     grid-area: Flexbox-Row; 
-}   
+    background-image: url("../Assets/images/02-portfolio-2.jpg");
+    justify-content: space-evenly;
+}  
+
 .Flexbox-Column {
-    grid-area: Flexbox-column;
+    grid-area: Flexbox-Column;
+    background-image: url("../Assets/images/02-portfolio-3.jpg")
 }
 
 .CSS-Grid-Layout {
     grid-area: CSS-Grid-Layout;
+    background-image: url("../Assets/images/02-portfolio-4.jpg")
 }
 
 .Linear-Gradients {
-    grid-area: Linear-Gradients;       
+    grid-area: Linear-Gradients; 
+    background-image: url("../Assets/images/02-portfolio-2.jpg")      
 }
 .Box-Transition-Glow {
-    grid-area: Box-Transition-Glow;        
+    grid-area: Box-Transition-Glow; 
+    background-image: url("../Assets/images/02-portfolio-3.jpg")       
 }
 .Overlay-Card-with-Title {
-    grid-area: Overlay-Card-with-Title;        
+    grid-area: Overlay-Card-with-Title;
+    background-image: url("../Assets/images/02-portfolio-4.jpg")        
 }
+
+
+
 
 footer {
     text-align: center;
+}
+.fb{
+
 }
