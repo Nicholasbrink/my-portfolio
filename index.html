@@ -9,81 +9,80 @@
 
 </head>
 <body>
-<header>
  <!-- Nav HTML -->
-       <div class="nav">
-        
-            <div id="left"><img src="./Assets/images/NB Logo.png" style="height: 125px"></div>
-            <div id="right">
-                <a href="#aboutMe">About Me</a>
-                <a href="#projectGrid">Work</a>
-                <a href="#footer">Contact Me</a>
-                <a href="#">Resume</a>
-           </div>
-          
+<header>
+    
+    <nav>
+        <img src="./Assets/images/NB Logo.png" style="height: 125px; float: left">
+        <div class="right">
+            <ul>
+                <li>
+                    <a href="#aboutMe">About Me</a>
+                </li>
+                <li>
+                    <a href="#portfolio">Work</a>
+                </li>
+                <li>
+                    <a href="#contactMe">Contact Me</a>
+                </li>
+                <li>
+                    <a href="#">Resume</a>
+                </li>
+            </ul>
         </div>
-        
-
+    </nav>
 </header>
 
    <!-- About Me HTML --> 
-    <div class="aboutMe" >  
-        <img src="Assets/images/nick-brinkphoto.jpg" >
+    <div class="aboutMe" id="aboutMe">  
+        <img src="Assets/images/nick-brinkphoto.jpg">
         <h2>About Me</h2>
         <p>I am a buddding front end developer who is constantly gaining experience in HTML, CSS and Javascript in an ever evolving and changing industy. I love a challenge of building code that will add functionality and looks pretty. I have years of experience as an Accountant so I am meticulous in my way of working.</p>
-        </aside>
-</div>
+        </div>
+
 <!-- My Work HTML --> 
 <section>
-    <div class="work" >  
+    <div class="work" id="portfolio" >  
     <h2>My Work</h2>
     <p>This is a selection of the most recent projects I've completed.</p>
 </div>
     <section id="projectGrid">
-
-        
-
-            <div id="main" class="projectGridArea">
-            <div class="heading">Project 1</div>    
-            <a href="https://www.sofarsounds.com"></a>
+        <div id="main" class="projectGridArea">
+            <div class="heading">Project 1   
+                <a href="https://nicholasbrink.github.io/Challenge1/"></a>
+            </div> 
         </div> 
             <div id="project2" class="projectGridArea">
-            <div class="heading">Project 2</div> 
+                <div class="heading">Project 2</div> 
             </div> 
-
             <div id="project3" class="projectGridArea">
-            <div class="heading">Project 3</div> 
+                <div class="heading">Project 3</div> 
             </div> 
-
-            <div id="project4" class="projectGridArea">
-            <div class="heading">Project 4</div> 
-            </div> 
-
+                <div id="project4" class="projectGridArea">
+                    <div class="heading">Project 4</div> 
+                </div> 
             <div id="project5" class="projectGridArea">
                 <div class="heading">Project 5</div> 
-                </div> 
-            
+            </div> 
             <div id="project6" class="projectGridArea">
             <div class="heading">Project 6</div> 
             </div>
             <div id="project7" class="projectGridArea">
             <div class="heading">Project 7</div> 
-                </div>
-
+            </div>
         </div>
 </section>
 </body>
 
 <!-- Contact Me (Footer) HTML -->
 <footer>
-    <h3>Get in Touch!</h3>
- 
-        <a href="https://www.facebook.com/nickbrink83/" class="contact">Facebook</a>
-        <a href="https://github.com/Nicholasbrink/" class="contact">GitHub</a>
-        <a href="https://www.linkedin.com/in/nickbrink" class="contact">LinkedIn Profile</a>
-        <a href="mailto:nicbrink@gmail.com" class="contact">Nick Brink Email</a>
-
-
+    <div id="contactMe"><h3>Get in Touch!</h3></div>
+        <div>
+            <a href="https://www.facebook.com/nickbrink83/" class="footer">Facebook</a>
+            <a href="https://github.com/Nicholasbrink/" class="footer">GitHub</a>
+            <a href="https://www.linkedin.com/in/nickbrink" class="footer">LinkedIn Profile</a>
+            <a href="mailto:nicbrink@gmail.com" class="footer">Nick Brink Email</a>
+        </div>
 </footer>
 <body>
 </html>
