@@ -91,6 +91,7 @@ nav .right {
   grid-area: main;
   background-image: url("../Assets/images/Screenshot_20221205_100440.png");
   background-size: cover;
+  width: 100%;
 }
 
 #project2 {
